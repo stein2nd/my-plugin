@@ -1,0 +1,11 @@
+{
+    "apiVersion": 2,
+    "name": "my-plugin/sample-block",
+    "title": "Sample Block",
+    "category": "widgets",
+    "icon": "smiley",
+    "description": "A simple sample block.",
+    "editorScript": "file:./../../dist/js/blocks.js",
+    "editorStyle": "file:./../../dist/css/editorStyle.css",
+    "supports": {"html": false}
+}

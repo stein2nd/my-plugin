@@ -1,0 +1,42 @@
+{
+  "name": "my-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "lint": "eslint src/**/*.{ts, tsx}",
+    "format": "prettier --write",
+    "make-pot": "php -d memory_limit=512M $(which wp) i18n make-pot . languages/my-plugin.pot --include=src --exclude=src/**/node_modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "@types/wordpress__block-editor": "^11.5.17",
+    "@types/wordpress__blocks": "^12.5.18",
+    "@types/wordpress__element": "^2.14.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "@wordpress/block-editor": "^15.0.0",
+    "@wordpress/blocks": "^15.0.0",
+    "@wordpress/element": "^6.27.0",
+    "@wordpress/i18n": "^6.0.0",
+    "eslint": "^9.32.0",
+    "prettier": "^3.6.2",
+    "sass": "^1.89.2",
+    "stylelint": "^16.23.0",
+    "stylelint-scss": "^6.12.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.0.6"
+  }
+}

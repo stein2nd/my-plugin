@@ -1,0 +1,54 @@
+# Copyright (C) 2025 Your Name
+# This file is distributed under the same license as the My Plugin plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: My Plugin 0.1.0"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/my-plugin"
+"POT-Creation-Date: 2025-08-05T06:55:50+00:00"
+"PO-Revision-Date: 2025-08-05 16:02+0900"
+"Last-Translator: "
+"Language-Team: "
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
+"X-Generator: Poedit 3.6"
+"X-Domain: my-plugin"
+
+#. Plugin Name of the plugin
+#: my-plugin.php src/includes/Admin/SettingsPage.php:34
+msgid "My Plugin"
+msgstr "My Plugin"
+
+#. Description of the plugin
+#: my-plugin.php
+msgid "Gutenberg + Classic 対応の開発用ベース。"
+msgstr ""
+
+#. Author of the plugin
+#: my-plugin.php
+msgid "Your Name"
+msgstr "姓 名"
+
+#: src/includes/Admin/SettingsPage.php:33
+#: src/includes/Admin/SettingsPage.php:47
+msgid "My Plugin Settings"
+msgstr "My Plugin 設定"
+
+#: src/includes/Classic/MetaBox.php:38
+msgid "My Plugin Meta Box"
+msgstr "My Plugin メタボックス"
+
+#: src/includes/Classic/MetaBox.php:51
+msgid "This is a meta box."
+msgstr "これはメタボックスです。"
+
+#: src/ts/blocks/SampleBlock/block.json
+msgctxt "block title"
+msgid "Sample Block"
+msgstr "「サンプル」ブロック"
+
+#: src/ts/blocks/SampleBlock/block.json
+msgctxt "block description"
+msgid "A simple sample block."
+msgstr "シンプルなブロック例"
