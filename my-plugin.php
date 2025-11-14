@@ -4,6 +4,8 @@
  * Description: Gutenberg + Classic 対応の開発用ベース。
  * Version: 0.1.0
  * Author: Your Name
+ * Text Domain: my-plugin
+ * Domain Path: /languages
  */
 
 defined('ABSPATH') || exit;
