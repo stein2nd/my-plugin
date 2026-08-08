@@ -2,7 +2,7 @@
 /**
  * Plugin Name: My Plugin
  * Description: Gutenberg + Classic 対応の開発用ベース。
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Your Name
  * Text Domain: my-plugin
  * Domain Path: /languages
