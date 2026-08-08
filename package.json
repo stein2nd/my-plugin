@@ -1,6 +1,6 @@
 {
   "name": "my-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,27 +16,27 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
-    "@types/node": "^25.6.0",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
     "@types/wordpress__block-editor": "^15.0.6",
     "@types/wordpress__blocks": "^15.17.0",
     "@types/wordpress__element": "^2.14.1",
-    "@vitejs/plugin-react": "^6.0.1",
-    "@wordpress/block-editor": "^15.17.0",
-    "@wordpress/blocks": "^15.17.0",
-    "@wordpress/element": "^6.44.0",
-    "@wordpress/i18n": "^6.17.0",
-    "eslint": "^10.2.1",
-    "prettier": "^3.8.3",
-    "sass": "^1.99.0",
-    "stylelint": "^17.8.0",
-    "stylelint-scss": "^7.0.0",
-    "typescript": "^6.0.3",
-    "vite": "^8.0.8"
+    "@vitejs/plugin-react": "^6.0.5",
+    "@wordpress/block-editor": "^16.1.0",
+    "@wordpress/blocks": "^15.25.0",
+    "@wordpress/element": "^8.4.0",
+    "@wordpress/i18n": "^6.25.0",
+    "eslint": "^10.8.1",
+    "prettier": "^3.9.6",
+    "sass": "^1.102.0",
+    "stylelint": "^17.14.1",
+    "stylelint-scss": "^7.2.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.1"
   }
 }
