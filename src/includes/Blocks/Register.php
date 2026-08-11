@@ -30,10 +30,10 @@ class Register {
     public static function register_block() : void {
         // 新しいスクリプトを登録する。
         wp_register_script(
-            'my-plugin-blocks', 
-            plugins_url('dist/js/blocks.js', Constants::PLUGIN_BASENAME), 
-            ['wp-blocks', 'wp-element', 'wp-editor'], 
-            null, 
+            'my-plugin-blocks',
+            plugins_url('dist/js/blocks.js', Constants::PLUGIN_BASENAME),
+            ['wp-blocks', 'wp-block-editor', 'wp-element', 'wp-i18n', 'react'],
+            null,
             true);
 
         // (block.jsonに記載されたメタデータを介して)ブロック・タイプ「sample」ブロック・タイプを登録する。

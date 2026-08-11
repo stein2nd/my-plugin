@@ -11,7 +11,7 @@ final class Constants {
 
     public const OPTION_NAME = 'my_plugin_options';
 
-    public const PLUGIN_VERSION = '1.0.2';
+    public const PLUGIN_VERSION = '1.0.3';
 
     public const PLUGIN_BASENAME = 'my-plugin/my-plugin.php';
 

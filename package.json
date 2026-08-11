@@ -1,42 +1,44 @@
 {
-  "name": "my-plugin",
-  "version": "1.0.2",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "watch": "vite build --watch",
-    "lint": "eslint src/**/*.{ts, tsx}",
-    "format": "prettier --write",
-    "make-pot": "php -d memory_limit=512M $(which wp) i18n make-pot . languages/my-plugin.pot --include=src --exclude=src/**/node_modules"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
-  },
-  "devDependencies": {
-    "@types/node": "^26.2.0",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.4",
-    "@types/wordpress__block-editor": "^15.0.6",
-    "@types/wordpress__blocks": "^15.17.0",
-    "@types/wordpress__element": "^2.14.1",
-    "@vitejs/plugin-react": "^6.0.5",
-    "@wordpress/block-editor": "^16.1.0",
-    "@wordpress/blocks": "^15.25.0",
-    "@wordpress/element": "^8.4.0",
-    "@wordpress/i18n": "^6.25.0",
-    "eslint": "^10.8.1",
-    "prettier": "^3.9.6",
-    "sass": "^1.102.0",
-    "stylelint": "^17.14.1",
-    "stylelint-scss": "^7.2.0",
-    "typescript": "^7.0.2",
-    "vite": "^8.2.1"
-  }
+    "name": "my-plugin",
+    "version": "1.0.3",
+    "description": "A starter template for custom WordPress plugins. Frontend assets are bundled with Vite.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "node scripts/build.mjs",
+        "watch": "node scripts/build.mjs --watch",
+        "lint": "eslint \"src/**/*.{ts,tsx}\"",
+        "format": "prettier --write .",
+        "make-pot": "php -d memory_limit=512M $(which wp) i18n make-pot . languages/my-plugin.pot --include=src --exclude=src/**/node_modules"
+    },
+    "keywords": [],
+    "author": "Koutarou ISHIKAWA",
+    "license": "GPL-3.0-or-later",
+    "type": "commonjs",
+    "dependencies": {
+        "react": "^19.2.8",
+        "react-dom": "^19.2.8"
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@types/node": "^26.2.0",
+        "@types/react": "^19.2.18",
+        "@types/react-dom": "^19.2.4",
+        "@typescript/native": "npm:typescript@^7.0.2",
+        "@vitejs/plugin-react": "^6.0.5",
+        "@wordpress/block-editor": "^16.1.0",
+        "@wordpress/blocks": "^15.25.0",
+        "@wordpress/element": "^8.4.0",
+        "@wordpress/i18n": "^6.25.0",
+        "eslint": "^10.8.1",
+        "eslint-plugin-react-hooks": "^7.1.1",
+        "globals": "^17.9.0",
+        "prettier": "^3.9.6",
+        "sass": "^1.102.0",
+        "stylelint": "^17.14.1",
+        "stylelint-scss": "^7.2.0",
+        "typescript": "npm:@typescript/typescript6@^6.0.2",
+        "typescript-eslint": "^8.67.0",
+        "vite": "^8.2.1"
+    }
 }

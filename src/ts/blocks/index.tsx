@@ -1,1 +1,1 @@
-import './SampleBlock'
+import './SampleBlock';

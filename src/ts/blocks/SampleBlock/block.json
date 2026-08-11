@@ -7,5 +7,5 @@
     "description": "A simple sample block.",
     "editorScript": "file:./../../dist/js/blocks.js",
     "editorStyle": "file:./../../dist/css/editorStyle.css",
-    "supports": {"html": false}
+    "supports": { "html": false }
 }
