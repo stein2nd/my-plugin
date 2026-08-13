@@ -1,6 +1,6 @@
 {
     "name": "my-plugin",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A starter template for custom WordPress plugins. Frontend assets are bundled with Vite.",
     "main": "index.js",
     "scripts": {
