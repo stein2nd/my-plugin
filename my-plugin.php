@@ -10,7 +10,7 @@
  * Plugin Name: My Plugin
  * Plugin URI: https://github.com/stein2nd/my-plugin
  * Description: Gutenberg + Classic 対応の開発用ベース。
- * Version: 1.0.4
+ * Version: 1.0.5
  * Author: Koutarou ISHIKAWA
  * Author URI: https://stein2nd.wordpress.com
  * License: GPL v3 or later

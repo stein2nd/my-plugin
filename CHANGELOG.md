@@ -2,6 +2,11 @@
 
 ## unreleased
 
+## 1.0.5 - 2026-10-03
+
+* npm 依存を最新化 (React v19.3.0、Vite v8.3、@wordpress/block-editor v18 など)
+* npm v12 でブロックされる install script について、事前ビルド済みの `@parcel/watcher` と `fsevents` を `allowScripts` で拒否
+
 ## 1.0.4 - 2026-08-13
 
 * プラグインヘッダーを整備 (`Plugin URI` / `Author URI` / `Requires at least` / `Tested up to` / `Requires PHP` / `Network`)
